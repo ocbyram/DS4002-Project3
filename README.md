@@ -25,6 +25,7 @@ Project Structure
 ```
 Project
 ├── DATA
+│   ├── Images
 │   ├── DS 4002: Data Appendix.pdf
 │   └── DATA FOR PROJECT 3.pdf
 ├── LICENSE
