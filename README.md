@@ -30,16 +30,16 @@ Project
 │   └── DATA FOR PROJECT 3.pdf
 ├── LICENSE
 ├── OUTPUT
-│   ├── ANOVA_Tables_In_Order.png
-│   ├── Correlation Results.txt
-│   ├── Date_MaxTemp_Prediction.png
-│   ├── eda.ipynb
-│   ├── PRCP_BoxPlot.png
-│   └── Temp_MAX_BoxPlot.png
+│   ├── EDA_Dogs.png
+│   ├── EDA_DOGS_2.png
+│   ├── 
+│   ├── 
+│   ├── 
+│   └── 
 ├── README.md
 └── SCRIPTS
-    ├── analysis.ipynb
-    └── ANOVA_Analysis.Rmd
+    ├── 
+    └── 
 ```
 
 ## Section 3: Reproducing
