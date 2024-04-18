@@ -25,21 +25,18 @@ Project Structure
 ```
 Project
 ├── DATA
-│   ├── Images
-│   ├── DS 4002: Data Appendix.pdf
-│   └── DATA FOR PROJECT 3.pdf
+│   ├── DATA FOR PROJECT 3.pdf
+│   ├── DS 4002_ Data Appendix (3).pdf
+│   └── Images
 ├── LICENSE
 ├── OUTPUT
-│   ├── EDA_Dogs.png
-│   ├── EDA_DOGS_2.png
-│   ├── 
-│   ├── 
-│   ├── 
-│   └── 
+│   ├── EDA_Dogs_2.png
+│   ├── EDA_Dogs.png
+│   └── placeholder
 ├── README.md
 └── SCRIPTS
-    ├── 
-    └── 
+    ├── Main_analysis.ipynb
+    └── Reduced_analysis.ipynb
 ```
 
 ## Section 3: Reproducing
