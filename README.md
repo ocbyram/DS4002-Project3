@@ -5,19 +5,17 @@
 
 ## Section 1: Software and Platform 
 - Software: The following tools/programs were used to perform analysis
-    - [R (3.3.0+)](https://cran.rstudio.com/)
-    - [R Studio (2023.12.1)](https://posit.co/download/rstudio-desktop/)
     - [Python (3.10.12)](https://www.python.org/downloads/)
     - [Git](https://git-scm.com/)
-    - VSCode with [Jupyter notebook support](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
+    - [Google Colab](https://colab.research.google.com/)
 - Hardware: Analyses were run on the following Hardware and Operating systems
-    - Dell Latitude 7480 (Ubutnu 22.04.2)
+    - Google Colab T4 GPU runtime
 - Dependencies: 
     - Matplotlib
     - sklearn 
-    - pandas
-    - scipy
-) 
+    - functools
+    - numpy
+    - tensorflow
 
 
 ## Section 2: Documentation Map
@@ -41,13 +39,15 @@ Project
 
 ## Section 3: Reproducing
 
-
-
-Before starting ensure that you have all the required software installed as outlined in Section 1. We also encourage use of either Mac, Windows or Ubuntu, as that is what the analysis was tested on, although other operating systems may work.
+To run this script, we recommend using google colab, as it is where we ran and tested our code, as well as contains the necessary libraries and configurations for performing the analysis. 
 
 ### Python scripts
 To reproduce results in python:
 
-1. In the SCRIPTS directory, run `pip install -r requirements.txt` to install the required packages
-2. Open analysis.ipynb in VS Code
-3. Pres the run all button at the top of the notebook to run the analysis
+1. Download the repository contents by running `git clone https://github.com/ocbyram/DS4002-Project3.git` or by downloading a zip of the repository from [https://github.com/ocbyram/DS4002-Project3/archive/refs/heads/main.zip](https://github.com/ocbyram/DS4002-Project3/archive/refs/heads/main.zip)
+2. Navigate to https://colab.research.google.com/
+3. Log in with a valid google account if necessary
+4. When prompted which notebook to open, navigate to Upload > Browse then upload the `Main_analysis.ipynb` found in the `SCRIPTS` folder
+5. (Optional) In google colab, click the dropdown next to "connect" on the top left hand corner. Select "Change Runtime Type" and then select "T4 GPU" and then "Save". While this isn't neccesary, it will speed up the process of training the model
+6. Select Runtime > Run all. This will run the analysis
+7. Repeat steps 4-6 but with `Reduced_analysis.ipynb` to see the results for the analysis on a subset of breeds
